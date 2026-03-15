@@ -99,7 +99,7 @@ export default function Markets() {
             {aiAdvice ? (
               <p className="mt-4 text-sm font-medium text-blue-50 leading-relaxed max-w-2xl">{aiAdvice}</p>
             ) : (
-              <p className="mt-2 text-sm text-blue-100 italic">Get an AI-generated summary of today's market conditions.</p>
+              <p className="mt-2 text-sm text-blue-100 italic">Get an AI-generated summary of today&apos;s market conditions.</p>
             )}
           </div>
           <button 

@@ -84,7 +84,7 @@ export default function Profile() {
             </div>
           ) : (
             <div className="p-8 text-center bg-white/5 rounded-2xl border border-white/10 border-dashed">
-              <p className="text-xs text-blue-200 uppercase tracking-widest font-bold">Press 'Run Analysis' to see AI findings</p>
+              <p className="text-xs text-blue-200 uppercase tracking-widest font-bold">Press &apos;Run Analysis&apos; to see AI findings</p>
             </div>
           )}
         </div>
