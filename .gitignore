@@ -1,0 +1,35 @@
+# Global
+.env
+.DS_Store
+*.log
+
+# Node Backend
+backend_node/node_modules/
+backend_node/.env
+backend_node/dist/
+
+# Python AI Agent
+ai_agent_python/__pycache__/
+ai_agent_python/.env
+ai_agent_python/.venv/
+ai_agent_python/venv/
+ai_agent_python/*.log
+
+# Next.js Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Flutter App
+finsphere/.dart_tool/
+finsphere/.flutter-plugins
+finsphere/.flutter-plugins-dependencies
+finsphere/.metadata
+finsphere/.packages
+finsphere/build/
+finsphere/ios/Flutter/.last_build_id
+finsphere/android/app/src/main/res/values/strings.xml

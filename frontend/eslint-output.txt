@@ -1,0 +1,11 @@
+
+C:\Users\RITESH\.gemini\antigravity\scratch\smart-investor\frontend\src\app\page.tsx
+   28:11  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   28:81  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  106:45  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\RITESH\.gemini\antigravity\scratch\smart-investor\frontend\src\components\RetirementCalculator.tsx
+  9:26  warning  'setLifeExpectancy' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 4 problems (3 errors, 1 warning)
+

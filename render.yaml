@@ -1,0 +1,52 @@
+services:
+  # 1. AI Agent (Python FastAPI)
+  - type: web
+    name: finsphere-ai-agent
+    env: python
+    rootDir: ai_agent_python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false # Set in Render Dashboard
+      - key: PYTHON_ENV
+        value: production
+
+  # 2. Market API (Node.js Express)
+  - type: web
+    name: finsphere-backend
+    env: node
+    rootDir: backend_node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: AI_AGENT_URL
+        fromService:
+          name: finsphere-ai-agent
+          type: web
+          property: host
+      - key: DB_HOST
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+
+  # 3. Investor Web Portal (Next.js - can also be on Vercel)
+  # If deploying to Render as well:
+  - type: web
+    name: finsphere-web
+    env: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: finsphere-backend
+          type: web
+          property: host
