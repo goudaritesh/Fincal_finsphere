@@ -9,7 +9,7 @@
 | Platform | Link | Hosted On |
 | :--- | :--- | :--- |
 | **Investor Web Portal** | [Live Website](https://fincal-finsphere-bh3u.vercel.app/) | Vercel |
-| **Mobile App (APK)** | [Download App](https://github.com/goudaritesh/Fincal_finsphere/releases) | GitHub Releases |
+| **Mobile App (APK)** | [Download App](https://github.com/goudaritesh/Fincal_finsphere/releases/download/v1.0.0/app-release.apk) | GitHub Releases |
 | **Market API** | [API Status](https://fincal-finsphere.onrender.com/api/market-indices) | Render |
 | **AI Agent Service** | [AI Health](https://fincal-finsphere-1.onrender.com/health) | Render |
 
