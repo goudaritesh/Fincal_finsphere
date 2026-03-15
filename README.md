@@ -8,10 +8,10 @@
 ## 🌐 Deployed Links
 | Platform | Link | Hosted On |
 | :--- | :--- | :--- |
-| **Investor Web Portal** | [Live Website](https://finsphere-ai.vercel.app) | Vercel |
-| **Mobile App (APK)** | [Download App](https://github.com/USER/finsphere/releases) | GitHub Releases |
-| **Market API** | [API Status](https://finsphere-backend.onrender.com/api/health) | Render |
-| **AI Agent Service** | [AI Health](https://finsphere-ai-agent.onrender.com/health) | Render |
+| **Investor Web Portal** | [Live Website](https://fincal-finsphere-bh3u.vercel.app/) | Vercel |
+| **Mobile App (APK)** | [Download App](https://github.com/goudaritesh/Fincal_finsphere/releases) | GitHub Releases |
+| **Market API** | [API Status](https://fincal-finsphere.onrender.com/api/market-indices) | Render |
+| **AI Agent Service** | [AI Health](https://fincal-finsphere-1.onrender.com/health) | Render |
 
 ---
 
